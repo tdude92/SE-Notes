@@ -26,3 +26,24 @@ a + b == c; // FALSE????!??!?!?!?!?
 - Due to imprecision, checking equality is risky.
 - **Instead, check if abs(diff) < tolerance**
 
+### Function Parameters
+
+Pointers can point to a function!
+```
+double f1(double x) {
+    return x;
+}
+
+double f2(double x) {
+    return x*x;
+}
+
+double verbose_call(double (*f)(double), double x) {
+    double out = f(x);
+    printf("%f", out);
+    return out;
+}
+
+verbose_call(f1, 10);
+verbose_call(f2, 10);
+```
