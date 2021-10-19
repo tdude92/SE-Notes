@@ -6,6 +6,7 @@
 - double: 8 bytes, 16 dig precision, +-308
 
 ### IEEE 754 Floating Point Standard
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/1180px-Float_example.svg.png)
 Limited precision; cannot use == on two floats/doubles
 
@@ -16,6 +17,7 @@ Notice that floats can only store rational numbers (not all reals).
 **Absolute Error and Relative Error**
 
 Let r be a real and p be an approximating rational
+
 ![](https://i.ytimg.com/vi/rtKYDvM68Oc/hqdefault.jpg)
 
 ### Floating Point Equality
