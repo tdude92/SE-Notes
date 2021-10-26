@@ -10,6 +10,7 @@
 int a[5] = {1, 2, 3, 4, 5}
 int a[] = {1, 2, 3, 4, 5}
 int a[5] = {1, 2, 3} (Last 2 entries are zero)
+int a[5] = {0} (All entries are zero)
 int a[5] = {[2] = 2, [4] = 4}
 ```
 
