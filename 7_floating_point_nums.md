@@ -5,6 +5,18 @@
 - Float: 4 bytes, 7 dig precision, exponent +-38
 - double: 8 bytes, 16 dig precision, +-308
 
+### printf and Floats
+
+General format: `%+- m.pX`
+- `+-` Right or left justification depending on sign.
+- `m` Minimum field width (spaces to leave for numbers)
+- `p` Precision (depends on what X is)
+- `X` Specifies the type
+    - `%d` Decimal number. `p` is the min # of digits.
+    - `%e` Exponential form. `p` is the number of digits after the decimal (default 6)
+    - `%f` Fixed decimal format. `p` = numbr of digits.
+    - `%g` Picks the shortest representation from above. `p` is the *number of sigfigs*.
+
 ### IEEE 754 Floating Point Standard
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Float_example.svg/1180px-Float_example.svg.png)
