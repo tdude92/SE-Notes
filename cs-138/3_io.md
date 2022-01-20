@@ -151,3 +151,15 @@ while (true) {
         // Input "123input" will be split into 123 and input bc C++ is clever.
         // HOWEVER, if we read string first and inputted "input123", it won't split.
         ```
+
+## I/O Redirection
+
+```
+./main
+
+./main < in.txt
+
+./main < in.txt > out.txt
+// Input from in.txt
+// Output to out.txt
+```
