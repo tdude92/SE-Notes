@@ -163,3 +163,6 @@ while (true) {
 // Input from in.txt
 // Output to out.txt
 ```
+
+* `>` single arrow truncates file
+* `>>` double arrow appends to file
