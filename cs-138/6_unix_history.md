@@ -2,7 +2,7 @@
 
 ### Operating Systems
 
-![](img/os_diagram.png)
+![](img/006_os_diagram.png)
 
 * Abstraction layer that allows software to operate on multiple different machines.
 * Kernel: "Core"; where the OS actually interacts with the hardware.
