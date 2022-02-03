@@ -47,3 +47,11 @@ nuke: stack -> stack
     Pre: true
     Post: Returns empty stack; old nodes deleted
 ```
+
+### Typedefs
+
+Say we have a stack ADT based on pointers to Node structs.
+
+```
+typedef Node* Stack
+```
